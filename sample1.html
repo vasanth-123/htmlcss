@@ -1,0 +1,96 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p:nth-child(2)
+        {
+            background-color: rgba(0, 0, 255, 0.638);
+            opacity: 10%;
+        
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>para 1</p>
+        <p>para 2</p>
+        <p>para 3</p>
+        <section>
+            <p>para 1</p>
+            <p>para 2</p>
+        </section>
+    </div>
+    <p>para 4</p>
+    <p>para 5</p>
+    <p>para 6</p>
+
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: sample;
+            animation-duration: 1s;
+            position: relative;
+            animation-timing-function:linear;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation: sample 3s linear 5s infinite alternate ;
+            border-radius: 50px;
+        }
+
+        @keyframes sample {
+            0% {
+                left: 0px;
+                top: 0px;
+                background-color: red;
+            }
+            25% {
+                left: 300px;
+                top: 0px;
+                background-color:green;
+            }
+            50% {
+                left: 300px;
+                top: 300px;
+                background-color:rgb(51, 0, 128);
+            }
+            75% {
+                left: 0px;
+                top: 300px;
+                background-color:rgb(13, 12, 15);
+            }
+            100% {
+                left: 0px;
+                top: 0px;
+                background-color:rgb(238, 235, 244);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+
+</body>
+
+</html>
